@@ -1,9 +1,10 @@
+// swift-tools-version:5.0
 import PackageDescription
 
 let package = Package(
     name: "CollapsibleTableSectionViewController",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v11),
     ],
     products: [
         .library(
