@@ -17,7 +17,8 @@ let package = Package(
     targets: [
         .target(
             name: "CollapsibleTableSectionViewController",
-            dependencies: []),
+            dependencies: [],
+            path: "./"),
         .testTarget(
             name: "CollapsibleTableSectionViewControllerTests",
             dependencies: ["CollapsibleTableSectionViewController"]),
